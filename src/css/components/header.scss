@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 1.375rem;
+    padding-bottom: 1.375rem;
+
+    &__col-left {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    &__col-center {
+        display: flex;
+        align-items: center;
+    }
+
+    &__col-right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+.header__logo {
+    margin-right: 1.4375rem;
+}
+
+.header__city-selection {
+    display: flex;
+    align-items: center;
+
+    &-icon {
+        margin-right: .4375rem;
+    }
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $title;
+
+    &-item {
+        margin-right: 1.5rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.header__like {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+
+    &-icon {
+        margin-right: .375rem;
+    }
+}
+
+.header__user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    height: 2rem;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: .875rem;
+    background-color: #ffffff;
+
+    &-img {
+        width: 2rem;
+        height: 100%;
+        margin-right: 4px;
+    }
+
+    &-name {
+        height: 100%;
+        flex: 1;
+    }
+}
+

@@ -1,0 +1,174 @@
+%svg-common {
+	background: url("svg/sprite.view.svg") no-repeat;
+}
+
+.svg-Vector {
+	@extend %svg-common;
+	background-position: 38.63636363636363% 96.29629629629629%;
+}
+
+.svg-Vector-dims {
+	width: 37px;
+	height: 37px;
+}
+
+.svg-alfa {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.svg-alfa-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-colos {
+	@extend %svg-common;
+	background-position: 24.95201535508637% 0;
+}
+
+.svg-colos-dims {
+	width: 48.6px;
+	height: 52px;
+}
+
+.svg-cross {
+	@extend %svg-common;
+	background-position: 0 100%;
+}
+
+.svg-cross-dims {
+	width: 45px;
+	height: 43px;
+}
+
+.svg-domrf {
+	@extend %svg-common;
+	background-position: 49.073170731707314% 0;
+}
+
+.svg-domrf-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-gaz {
+	@extend %svg-common;
+	background-position: 0 35.374149659863946%;
+}
+
+.svg-gaz-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-heart {
+	@extend %svg-common;
+	background-position: 20.737327188940093% 97.5%;
+}
+
+.svg-heart-dims {
+	width: 40px;
+	height: 39px;
+}
+
+.svg-help {
+	@extend %svg-common;
+	background-position: 54.22222222222222% 93.41317365269461%;
+}
+
+.svg-help-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-hosbank {
+	@extend %svg-common;
+	background-position: 25.365853658536587% 35.374149659863946%;
+}
+
+.svg-hosbank-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-mkb {
+	@extend %svg-common;
+	background-position: 74.4390243902439% 0;
+}
+
+.svg-mkb-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-mts {
+	@extend %svg-common;
+	background-position: 74.4390243902439% 35.374149659863946%;
+}
+
+.svg-mts-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-prom {
+	@extend %svg-common;
+	background-position: 0 70.74829931972789%;
+}
+
+.svg-prom-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-quyli {
+	@extend %svg-common;
+	background-position: 25.365853658536587% 61.74305390643553%;
+}
+
+.svg-quyli-dims {
+	width: 52px;
+	height: 30.56px;
+}
+
+.svg-redcircle {
+	@extend %svg-common;
+	background-position: 47.79192132714489% 35.374149659863946%;
+}
+
+.svg-redcircle-dims {
+	width: 39.39px;
+	height: 52px;
+}
+
+.svg-rosbank {
+	@extend %svg-common;
+	background-position: 99.8048780487805% 0;
+}
+
+.svg-rosbank-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-sber {
+	@extend %svg-common;
+	background-position: 99.8048780487805% 35.374149659863946%;
+}
+
+.svg-sber-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-ural {
+	@extend %svg-common;
+	background-position: 99.8048780487805% 70.74829931972789%;
+}
+
+.svg-ural-dims {
+	width: 52px;
+	height: 52px;
+}
+

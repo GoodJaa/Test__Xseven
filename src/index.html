@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <title>document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <div class="header__col-left">
+                    <div class="header__logo logo">
+                        <svg class="qayli-icon">
+                            <use xlink:href="./image/svg/sprite.symbol.svg#quyli"></use>
+                        </svg>
+                    </div>
+                    <div class="header__city-selection">
+                        <div class="header__city-icon">
+                            <svg class="vector-icon">
+                                <use xlink:href="./image/svg/sprite.symbol.svg#Vector"></use>
+                            </svg>
+                        </div>
+                        <div class="header__city-city">
+                            Вологда
+                        </div>
+                    </div>
+                </div>
+                <div class="header__col-center">
+                    <ul class="header__nav">
+                        <li class="header__nav-item">
+                            <a href="" class="header__nav-link">Новостройки</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="" class="header__nav-link">Квартиры</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="" class="header__nav-link">Застройщики</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="" class="header__nav-link">Ипотека</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__col-right">
+                    <div class="header__like">
+                        <div class="header__like-icon">
+                            <svg class="heart-icon">
+                                <use xlink:href="./image/svg/sprite.symbol.svg#heart"></use>
+                            </svg>
+                        </div>
+                        <div class="header__like-counter">2</div>
+                    </div>
+                    <div class="header__user">
+                        <div class="header__user-img">
+                            <img src="./image/icons/Rectangle 267.png" alt="user image" class="user-img">
+                        </div>
+                        <div class="header__user-name">Имя пользователя</div>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <section class="mortgage-section">
+                    <h1 class="mortgage__title">Ипотека на новостройки в Вологде</h1>
+                    <span class="mortgage__desc">Подберите лучшее ипотечное предложения на покупку квартиры в
+                        новостройках Вологды</span>
+                    <form action="/" class="mortgage-form form" id="mortgage-form">
+                        <input placeholder="Любая" type="number" id="cost" class="form__input mortgage-form__input">
+                        <div class="form__input-initial">
+                            <input placeholder="Любой" type="number" id="initial"
+                                class="form__input form__input--initial mortgage-form__input">
+                            <select name="percentage" id="percentage" form="mortgage-form"
+                                class="form__selector mortgage-form__selector">
+                                <option disabled>0%</option>
+                            </select>
+                        </div>
+                        <input placeholder="Любой" type="text" id="age" class="form__input mortgage-form__input">
+                        <button type="submit" class="button submit-button mortgage-form__submit-btn">
+                            <div class="submit-button-value">Подобрать</div>
+                            <div class="submit-button-number">54</div>
+                        </button>
+                    </form>
+                    <div class="mortgage__search-result">
+                        <ul class="search-result__title-list search-result">
+                            <li class="search-result__title-item">Название программы / Банк</li>
+                            <li class="search-result__title-item">Сумма кредита</li>
+                            <li class="search-result__title-item">Мин, ставка</li>
+                            <li class="search-result__title-item">
+                                Платеж
+                                <a href="" class="help__btn">
+                                    <svg class="help-icon help__btn-icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#help"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="search-result">
+                            <li class="search-result__item mortgage__block">
+                                <div class="mortgage__block-program">
+                                    <div class="program__icon-wrapper">
+                                        <svg class="domrf-icon program__icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#domrf"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="program__title">
+                                        <h3 class="program__title-name">Семейная ипотека</h3>
+                                        <span class="program__title-bank">Банк ДомРФ</span>
+                                    </div>
+                                </div>
+                                <div class="mortgage__block-credit">
+                                    <div class="credit__value">1 000 000 - 12 000 000</div>
+                                    <span class="credit__desc">На срок до 30 лет</span>
+                                </div>
+                                <div class="mortgage__block-ratet">
+                                    <div class="rate-value">3,99%</div>
+                                </div>
+                                <div class="mortgage__block-payment">
+                                    <div class="payment-value">9 082₽</div>
+                                </div>
+                                <button class="mortgage__block-btn more-btn"></button>
+                            </li>
+                            <li class="search-result__item mortgage__block">
+                                <div class="mortgage__block-program">
+                                    <div class="program__icon-wrapper">
+                                        <svg class="domrf-icon program__icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#domrf"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="program__title">
+                                        <h3 class="program__title-name">Семейная ипотека</h3>
+                                        <span class="program__title-bank">Банк ДомРФ</span>
+                                    </div>
+                                </div>
+                                <div class="mortgage__block-credit">
+                                    <div class="credit__value">1 000 000 - 12 000 000</div>
+                                    <span class="credit__desc">На срок до 30 лет</span>
+                                </div>
+                                <div class="mortgage__block-ratet">
+                                    <div class="rate-value">3,99%</div>
+                                </div>
+                                <div class="mortgage__block-payment">
+                                    <div class="payment-value">9 082₽</div>
+                                </div>
+                                <button class="mortgage__block-btn more-btn"></button>
+                            </li>
+                            <li class="search-result__item mortgage__block">
+                                <div class="mortgage__block-program">
+                                    <div class="program__icon-wrapper">
+                                        <svg class="domrf-icon program__icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#domrf"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="program__title">
+                                        <h3 class="program__title-name">Семейная ипотека</h3>
+                                        <span class="program__title-bank">Банк ДомРФ</span>
+                                    </div>
+                                </div>
+                                <div class="mortgage__block-credit">
+                                    <div class="credit__value">1 000 000 - 12 000 000</div>
+                                    <span class="credit__desc">На срок до 30 лет</span>
+                                </div>
+                                <div class="mortgage__block-ratet">
+                                    <div class="rate-value">3,99%</div>
+                                </div>
+                                <div class="mortgage__block-payment">
+                                    <div class="payment-value">9 082₽</div>
+                                </div>
+                                <button class="mortgage__block-btn more-btn"></button>
+                            </li>
+                            <li class="ad_block">
+                                <img src="./image/ad/image 42.jpg" alt="" class="ad-block-img">
+                            </li>
+                            <li class="search-result__item mortgage__block">
+                                <div class="mortgage__block-program">
+                                    <div class="program__icon-wrapper">
+                                        <svg class="domrf-icon program__icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#domrf"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="program__title">
+                                        <h3 class="program__title-name">Семейная ипотека</h3>
+                                        <span class="program__title-bank">Банк ДомРФ</span>
+                                    </div>
+                                </div>
+                                <div class="mortgage__block-credit">
+                                    <div class="credit__value">1 000 000 - 12 000 000</div>
+                                    <span class="credit__desc">На срок до 30 лет</span>
+                                </div>
+                                <div class="mortgage__block-ratet">
+                                    <div class="rate-value">3,99%</div>
+                                </div>
+                                <div class="mortgage__block-payment">
+                                    <div class="payment-value">9 082₽</div>
+                                </div>
+                                <button class="mortgage__block-btn more-btn"></button>
+                            </li>
+                            <li class="search-result__item mortgage__block">
+                                <div class="mortgage__block-program">
+                                    <div class="program__icon-wrapper">
+                                        <svg class="domrf-icon program__icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#domrf"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="program__title">
+                                        <h3 class="program__title-name">Семейная ипотека</h3>
+                                        <span class="program__title-bank">Банк ДомРФ</span>
+                                    </div>
+                                </div>
+                                <div class="mortgage__block-credit">
+                                    <div class="credit__value">1 000 000 - 12 000 000</div>
+                                    <span class="credit__desc">На срок до 30 лет</span>
+                                </div>
+                                <div class="mortgage__block-ratet">
+                                    <div class="rate-value">3,99%</div>
+                                </div>
+                                <div class="mortgage__block-payment">
+                                    <div class="payment-value">9 082₽</div>
+                                </div>
+                                <button class="mortgage__block-btn more-btn"></button>
+                            </li>
+                            <li class="search-result__item mortgage__block">
+                                <div class="mortgage__block-program">
+                                    <div class="program__icon-wrapper">
+                                        <svg class="domrf-icon program__icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#domrf"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="program__title">
+                                        <h3 class="program__title-name">Семейная ипотека</h3>
+                                        <span class="program__title-bank">Банк ДомРФ</span>
+                                    </div>
+                                </div>
+                                <div class="mortgage__block-credit">
+                                    <div class="credit__value">1 000 000 - 12 000 000</div>
+                                    <span class="credit__desc">На срок до 30 лет</span>
+                                </div>
+                                <div class="mortgage__block-ratet">
+                                    <div class="rate-value">3,99%</div>
+                                </div>
+                                <div class="mortgage__block-payment">
+                                    <div class="payment-value">9 082₽</div>
+                                </div>
+                                <button class="mortgage__block-btn more-btn"></button>
+                            </li>
+                            <li class="search-result__item mortgage__block">
+                                <div class="mortgage__block-program">
+                                    <div class="program__icon-wrapper">
+                                        <svg class="domrf-icon program__icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#domrf"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="program__title">
+                                        <h3 class="program__title-name">Семейная ипотека</h3>
+                                        <span class="program__title-bank">Банк ДомРФ</span>
+                                    </div>
+                                </div>
+                                <div class="mortgage__block-credit">
+                                    <div class="credit__value">1 000 000 - 12 000 000</div>
+                                    <span class="credit__desc">На срок до 30 лет</span>
+                                </div>
+                                <div class="mortgage__block-ratet">
+                                    <div class="rate-value">3,99%</div>
+                                </div>
+                                <div class="mortgage__block-payment">
+                                    <div class="payment-value">9 082₽</div>
+                                </div>
+                                <button class="mortgage__block-btn more-btn"></button>
+                            </li>
+                            <li class="search-result__item mortgage__block">
+                                <div class="mortgage__block-program">
+                                    <div class="program__icon-wrapper">
+                                        <svg class="domrf-icon program__icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#domrf"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="program__title">
+                                        <h3 class="program__title-name">Семейная ипотека</h3>
+                                        <span class="program__title-bank">Банк ДомРФ</span>
+                                    </div>
+                                </div>
+                                <div class="mortgage__block-credit">
+                                    <div class="credit__value">1 000 000 - 12 000 000</div>
+                                    <span class="credit__desc">На срок до 30 лет</span>
+                                </div>
+                                <div class="mortgage__block-ratet">
+                                    <div class="rate-value">3,99%</div>
+                                </div>
+                                <div class="mortgage__block-payment">
+                                    <div class="payment-value">9 082₽</div>
+                                </div>
+                                <button class="mortgage__block-btn more-btn"></button>
+                            </li>
+                            <li class="search-result__item mortgage__block">
+                                <div class="mortgage__block-program">
+                                    <div class="program__icon-wrapper">
+                                        <svg class="domrf-icon program__icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#domrf"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="program__title">
+                                        <h3 class="program__title-name">Семейная ипотека</h3>
+                                        <span class="program__title-bank">Банк ДомРФ</span>
+                                    </div>
+                                </div>
+                                <div class="mortgage__block-credit">
+                                    <div class="credit__value">1 000 000 - 12 000 000</div>
+                                    <span class="credit__desc">На срок до 30 лет</span>
+                                </div>
+                                <div class="mortgage__block-ratet">
+                                    <div class="rate-value">3,99%</div>
+                                </div>
+                                <div class="mortgage__block-payment">
+                                    <div class="payment-value">9 082₽</div>
+                                </div>
+                                <button class="mortgage__block-btn more-btn"></button>
+                            </li>
+                            <li class="search-result__item mortgage__block">
+                                <div class="mortgage__block-program">
+                                    <div class="program__icon-wrapper">
+                                        <svg class="domrf-icon program__icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#domrf"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="program__title">
+                                        <h3 class="program__title-name">Семейная ипотека</h3>
+                                        <span class="program__title-bank">Банк ДомРФ</span>
+                                    </div>
+                                </div>
+                                <div class="mortgage__block-credit">
+                                    <div class="credit__value">1 000 000 - 12 000 000</div>
+                                    <span class="credit__desc">На срок до 30 лет</span>
+                                </div>
+                                <div class="mortgage__block-ratet">
+                                    <div class="rate-value">3,99%</div>
+                                </div>
+                                <div class="mortgage__block-payment">
+                                    <div class="payment-value">9 082₽</div>
+                                </div>
+                                <button class="mortgage__block-btn more-btn"></button>
+                            </li>
+                            <li class="search-result__item mortgage__block">
+                                <div class="mortgage__block-program">
+                                    <div class="program__icon-wrapper">
+                                        <svg class="domrf-icon program__icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#domrf"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="program__title">
+                                        <h3 class="program__title-name">Семейная ипотека</h3>
+                                        <span class="program__title-bank">Банк ДомРФ</span>
+                                    </div>
+                                </div>
+                                <div class="mortgage__block-credit">
+                                    <div class="credit__value">1 000 000 - 12 000 000</div>
+                                    <span class="credit__desc">На срок до 30 лет</span>
+                                </div>
+                                <div class="mortgage__block-ratet">
+                                    <div class="rate-value">3,99%</div>
+                                </div>
+                                <div class="mortgage__block-payment">
+                                    <div class="payment-value">9 082₽</div>
+                                </div>
+                                <button class="mortgage__block-btn more-btn"></button>
+                            </li>
+                        </ul>
+                        <button class="mortgage__search-btn more-btn more-btn--big">Подобрать еще 10 программ</button>
+                    </div>
+                </section>
+                <section class="banks">
+                    <h2 class="banks--title">Программы по банкам</h2>
+                    <ul class="banks__carousel">
+                        <li class="banks__carousel-item bank__card">
+                            <div class="bank__icon-wrapper">
+                                <svg class="hosbank-icon bank__icon">
+                                    <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                </svg>
+                            </div>
+                            <h3 class="bank__title">Банк Возраждение</h3>
+                            <span class="bank__desc">Ставка от 6,5%</span>
+                            <button class="bank__btn more-btn">Программы</button>
+                        </li>
+                        <li class="banks__carousel-item bank__card">
+                            <div class="bank__icon-wrapper">
+                                <svg class="hosbank-icon bank__icon">
+                                    <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                </svg>
+                            </div>
+                            <h3 class="bank__title">Банк Возраждение</h3>
+                            <span class="bank__desc">Ставка от 6,5%</span>
+                            <button class="bank__btn more-btn">Программы</button>
+                        </li>
+                        <li class="banks__carousel-item bank__card">
+                            <div class="bank__icon-wrapper">
+                                <svg class="hosbank-icon bank__icon">
+                                    <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                </svg>
+                            </div>
+                            <h3 class="bank__title">Банк Возраждение</h3>
+                            <span class="bank__desc">Ставка от 6,5%</span>
+                            <button class="bank__btn more-btn">Программы</button>
+                        </li>
+                        <li class="banks__carousel-item bank__card">
+                            <div class="bank__icon-wrapper">
+                                <svg class="hosbank-icon bank__icon">
+                                    <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                </svg>
+                            </div>
+                            <h3 class="bank__title">Банк Возраждение</h3>
+                            <span class="bank__desc">Ставка от 6,5%</span>
+                            <button class="bank__btn more-btn">Программы</button>
+                        </li>
+                        <li class="banks__carousel-item bank__card">
+                            <div class="bank__icon-wrapper">
+                                <svg class="hosbank-icon bank__icon">
+                                    <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                </svg>
+                            </div>
+                            <h3 class="bank__title">Банк Возраждение</h3>
+                            <span class="bank__desc">Ставка от 6,5%</span>
+                            <button class="bank__btn more-btn">Программы</button>
+                        </li>
+                        <li class="banks__carousel-item bank__card">
+                            <div class="bank__icon-wrapper">
+                                <svg class="hosbank-icon bank__icon">
+                                    <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                </svg>
+                            </div>
+                            <h3 class="bank__title">Банк Возраждение</h3>
+                            <span class="bank__desc">Ставка от 6,5%</span>
+                            <button class="bank__btn more-btn">Программы</button>
+                        </li>
+                        <li class="banks__carousel-item bank__card">
+                            <div class="bank__icon-wrapper">
+                                <svg class="hosbank-icon bank__icon">
+                                    <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                </svg>
+                            </div>
+                            <h3 class="bank__title">Банк Возраждение</h3>
+                            <span class="bank__desc">Ставка от 6,5%</span>
+                            <button class="bank__btn more-btn">Программы</button>
+                        </li>
+                    </ul>
+                </section>
+                <section class="housing-complex">
+                    <ul class="housing-complex__list">
+                        <li class="house">
+                            <img src="./image/house/Rectangle 2.1 (1).png" alt="house photo" class="house-img">
+                            <div class="house__title">
+                                <div class="house__title-icon">
+                                    <svg class="mark-icon house__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#mark"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="house__title-text">ЖК Карла Маркса д.30</h3>
+                            </div>
+                            <div class="house__price">от 1 100 000 ₽</div>
+                            <div class="house__banks">
+                                <ul class="house__banks-list">
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <div class="house__banks-desc">и ещё 5 банков</div>
+                            </div>
+                        </li>
+                        <li class="house">
+                            <img src="./image/house/Rectangle 2.1 (1).png" alt="house photo" class="house-img">
+                            <div class="house__title">
+                                <div class="house__title-icon">
+                                    <svg class="mark-icon house__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#mark"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="house__title-text">ЖК Карла Маркса д.30</h3>
+                            </div>
+                            <div class="house__price">от 1 100 000 ₽</div>
+                            <div class="house__banks">
+                                <ul class="house__banks-list">
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <div class="house__banks-desc">и ещё 5 банков</div>
+                            </div>
+                        </li>
+                        <li class="house">
+                            <img src="./image/house/Rectangle 2.1 (1).png" alt="house photo" class="house-img">
+                            <div class="house__title">
+                                <div class="house__title-icon">
+                                    <svg class="mark-icon house__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#mark"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="house__title-text">ЖК Карла Маркса д.30</h3>
+                            </div>
+                            <div class="house__price">от 1 100 000 ₽</div>
+                            <div class="house__banks">
+                                <ul class="house__banks-list">
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <div class="house__banks-desc">и ещё 5 банков</div>
+                            </div>
+                        </li>
+                        <li class="house">
+                            <img src="./image/house/Rectangle 2.1 (1).png" alt="house photo" class="house-img">
+                            <div class="house__title">
+                                <div class="house__title-icon">
+                                    <svg class="mark-icon house__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#mark"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="house__title-text">ЖК Карла Маркса д.30</h3>
+                            </div>
+                            <div class="house__price">от 1 100 000 ₽</div>
+                            <div class="house__banks">
+                                <ul class="house__banks-list">
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <div class="house__banks-desc">и ещё 5 банков</div>
+                            </div>
+                        </li>
+                        <li class="house">
+                            <img src="./image/house/Rectangle 2.1 (1).png" alt="house photo" class="house-img">
+                            <div class="house__title">
+                                <div class="house__title-icon">
+                                    <svg class="mark-icon house__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#mark"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="house__title-text">ЖК Карла Маркса д.30</h3>
+                            </div>
+                            <div class="house__price">от 1 100 000 ₽</div>
+                            <div class="house__banks">
+                                <ul class="house__banks-list">
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <div class="house__banks-desc">и ещё 5 банков</div>
+                            </div>
+                        </li>
+                        <li class="house">
+                            <img src="./image/house/Rectangle 2.1 (1).png" alt="house photo" class="house-img">
+                            <div class="house__title">
+                                <div class="house__title-icon">
+                                    <svg class="mark-icon house__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#mark"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="house__title-text">ЖК Карла Маркса д.30</h3>
+                            </div>
+                            <div class="house__price">от 1 100 000 ₽</div>
+                            <div class="house__banks">
+                                <ul class="house__banks-list">
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <div class="house__banks-desc">и ещё 5 банков</div>
+                            </div>
+                        </li>
+                        <li class="house">
+                            <img src="./image/house/Rectangle 2.1 (1).png" alt="house photo" class="house-img">
+                            <div class="house__title">
+                                <div class="house__title-icon">
+                                    <svg class="mark-icon house__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#mark"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="house__title-text">ЖК Карла Маркса д.30</h3>
+                            </div>
+                            <div class="house__price">от 1 100 000 ₽</div>
+                            <div class="house__banks">
+                                <ul class="house__banks-list">
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <div class="house__banks-desc">и ещё 5 банков</div>
+                            </div>
+                        </li>
+                        <li class="house">
+                            <img src="./image/house/Rectangle 2.1 (1).png" alt="house photo" class="house-img">
+                            <div class="house__title">
+                                <div class="house__title-icon">
+                                    <svg class="mark-icon house__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#mark"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="house__title-text">ЖК Карла Маркса д.30</h3>
+                            </div>
+                            <div class="house__price">от 1 100 000 ₽</div>
+                            <div class="house__banks">
+                                <ul class="house__banks-list">
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                    <li class="house__banks-item">
+                                        <svg class="hosbank-icon bank-icon">
+                                            <use xlink:href="./image/svg/sprite.symbol.svg#mhosbank"></use>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <div class="house__banks-desc">и ещё 5 банков</div>
+                            </div>
+                            <button class="house__btn more-btn more-btn--big"></button>
+                        </li>
+                    </ul>
+                </section>
+                <div class="breadcrumbs-wrapper">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item">Главная</li>
+                        <li class="breadcrumbs__item">Ипотека на новостройку</li>
+                    </ul>
+                </div>
+                <section class="description">
+                    <div class="description__left-col">
+                        <h2 class="descriotion__title">Квартиры в 56 новостройках Сочи</h2>
+                        <div class="descrioption__text">
+                            В базе CIAN.RU вы найдёте объекты по аренде и продаже недвижимости в Сочи. Все
+                            представленные на сайте объекты проверены нашей командой модераторов. Для удобства вы можете
+                            загрузить мобильное приложение на iPhone и Android, а также просто подбирать предложения
+                            благодаря хорошо структурированному каталогу и «умному» поиску на нашем сайте. Для
+                            облегчения поиска мы реализовали систему рекомендаций похожих объявлений. Все объявления,
+                            которые Вас заинтересовали, легко найти в личном кабинете с помощью добавления в
+                            "Избранное". Проверенное жильё в Сочи находится на ЦИАН.
+                        </div>
+                    </div>
+                    <div class="description__right-col">
+                        <div class="ad-house__block">
+                            <div class="ad-house__image-wrapper">
+                                <img src="./image/house/Rectangle 2.1 (7).png" alt="house image"
+                                    class="ad-jouse__image">
+                                <div class="ad-house__image-icon">
+                                    <svg class="heart-gray-icon ad-house__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#heart-gray"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ad-house__info">
+                                <div class="ad-house__info-title">
+                                    <svg class="mark-icon ad-house__icon-title">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#mark"></use>
+                                    </svg>
+                                </div>
+                                <div class="ad-house__price">
+                                    <span class="ad-house__info-title">Цена</span>
+                                    <span class="ad-house__info-value">от 1 100 000 ₽</span>
+                                </div>
+                                <div class="ad-house__area">
+                                    <span class="ad-house__info-title">Площадь</span>
+                                    <span class="ad-house__info-value">от 32 до 122м²</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="footer-nav">
+                    <div class="footer-nav__right-col">
+                        <h4 class="footer-nav__title">Квартиры от застройщиков</h4>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav__center-col">
+                        <h4 class="footer-nav__title">Квартиры от застройщиков</h4>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav__left-col">
+                        <h4 class="footer-nav__title">Квартиры от застройщиков</h4>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/" class="footer-nav__link">Студии</a>
+                            </li>
+                        </ul>
+                        <button class="more-btn">+ Разместить объявления</button>
+                    </div>
+                </div>
+                <div class="footer__company-info">
+                    <div class="company-info-text">Qayli — база проверенных новостроек. Использование сайта означает
+                        согласие с Пользовательским соглашением и Политикой конфиденциальности Qayli. Оплачивая услуги,
+                        вы принимаете Лицензионное соглашение.
+                    </div>
+                    <div class="company-info-text">Qayli — база проверенных новостроек. Использование сайта означает
+                        согласие с Пользовательским соглашением и Политикой конфиденциальности Qayli. Оплачивая услуги,
+                        вы принимаете Лицензионное соглашение.
+                    </div>
+                </div>
+                <div class="footer__contacts">
+                    <div class="header__logo logo">
+                        <svg class="qayli-icon program__icon">
+                            <use xlink:href="./image/svg/sprite.symbol.svg#quyli"></use>
+                        </svg>
+                    </div>
+                    <a href="" class="footer__contacts-link">Тарифы на размещение</a>
+                    <a href="" class="footer__contacts-link">Связаться с нами</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

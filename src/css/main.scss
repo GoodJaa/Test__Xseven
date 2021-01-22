@@ -1,0 +1,28 @@
+$containerWidth: 1136px;
+$baseFontSize: 16px;
+
+@import "components/media.scss";
+
+//breakpoints
+
+$phones: 480px;
+
+// colors
+
+$title: #0F0208;
+$text: #38424E;
+
+//setups
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import "components/layout.scss";
+
+//components
+
+@import "components/svg.scss";
+@import "components/header.scss";
+@import "components/mortgage.scss";
+@import "components/form.scss";
+@import "components/submit-button.scss";
+@import "components/more-btn.scss";
+
