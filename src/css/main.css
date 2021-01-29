@@ -342,21 +342,37 @@ input {
 }
 
 .banks__carousel-item {
+  margin-right: 1rem;
+}
+
+.more-btn {
+  border: 1px solid #000;
+  padding: 0.375rem 0.875rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.bank__card {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 10rem;
+  justify-content: flex-end;
+  width: 11rem;
   height: 11rem;
   background-color: #fff;
   border-radius: 8px;
-  margin: 0 1rem;
-  padding: 2rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   white-space: normal;
   text-align: center;
 }
 
+.bank__icon {
+  z-index: 1000;
+  width: 4rem;
+  height: 4rem;
+}
 .bank__icon-wrapper {
   position: absolute;
   width: 4rem;
@@ -369,10 +385,11 @@ input {
   transform: translate(-50%, -50%);
 }
 
-.bank__icon {
-  z-index: 1000;
-  width: 4rem;
-  height: 4rem;
+.bank__desc-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .bank__title {
@@ -383,12 +400,4 @@ input {
 
 .bank__desc {
   margin-bottom: 1.25rem;
-}
-
-.more-btn {
-  border: 1px solid #000;
-  padding: 0.375rem 0.875rem;
-  border-radius: 4px;
-  font-size: 0.875rem;
-  font-weight: 500;
 }
