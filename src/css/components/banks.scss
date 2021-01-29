@@ -1,0 +1,72 @@
+.banks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.banks__title {
+    margin-bottom: 1.5rem;
+}
+
+.carousel-container {
+    max-width: $containerWidth;
+    min-height: 15.625rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.banks__carousel {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    transition: .7s;
+}
+
+.banks__carousel-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 11rem;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0 1rem;
+    padding: 2rem 1rem 1rem 1rem;
+    white-space: normal;
+    text-align: center;
+}
+
+.bank__icon-wrapper {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    left: 50%;
+    top: 0;
+    z-index: 1000;
+    border-radius: 6.25rem;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+}
+
+.bank__icon {
+    z-index: 1000;
+    width: 4rem;
+    height: 4rem;
+}
+
+.bank__title {
+    margin-bottom: .5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.bank__desc {
+    margin-bottom: 1.25rem;
+}

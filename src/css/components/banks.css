@@ -1,0 +1,14 @@
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.banks__carousel {
+  position: relative;
+  white-space: nowrap;
+  width: 100%;
+  transition: 0.4s;
+  display: flex;
+}

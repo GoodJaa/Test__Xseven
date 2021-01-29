@@ -85,7 +85,7 @@
                             <div class="submit-button-number">54</div>
                         </button>
                     </form>
-                    <div class="mortgage__search-result">
+                    <div class="mortgage__search-result" style="display: none;">
                         <ul class="search-result__title-list search-result">
                             <li class="search-result__title-item">Название программы / Банк</li>
                             <li class="search-result__title-item">Сумма кредита</li>
@@ -372,81 +372,123 @@
                     </div>
                 </section>
                 <section class="banks">
-                    <h2 class="banks--title">Программы по банкам</h2>
-                    <ul class="banks__carousel">
-                        <li class="banks__carousel-item bank__card">
-                            <div class="bank__icon-wrapper">
-                                <svg class="hosbank-icon bank__icon">
-                                    <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
-                                </svg>
-                            </div>
-                            <h3 class="bank__title">Банк Возраждение</h3>
-                            <span class="bank__desc">Ставка от 6,5%</span>
-                            <button class="bank__btn more-btn">Программы</button>
-                        </li>
-                        <li class="banks__carousel-item bank__card">
-                            <div class="bank__icon-wrapper">
-                                <svg class="hosbank-icon bank__icon">
-                                    <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
-                                </svg>
-                            </div>
-                            <h3 class="bank__title">Банк Возраждение</h3>
-                            <span class="bank__desc">Ставка от 6,5%</span>
-                            <button class="bank__btn more-btn">Программы</button>
-                        </li>
-                        <li class="banks__carousel-item bank__card">
-                            <div class="bank__icon-wrapper">
-                                <svg class="hosbank-icon bank__icon">
-                                    <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
-                                </svg>
-                            </div>
-                            <h3 class="bank__title">Банк Возраждение</h3>
-                            <span class="bank__desc">Ставка от 6,5%</span>
-                            <button class="bank__btn more-btn">Программы</button>
-                        </li>
-                        <li class="banks__carousel-item bank__card">
-                            <div class="bank__icon-wrapper">
-                                <svg class="hosbank-icon bank__icon">
-                                    <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
-                                </svg>
-                            </div>
-                            <h3 class="bank__title">Банк Возраждение</h3>
-                            <span class="bank__desc">Ставка от 6,5%</span>
-                            <button class="bank__btn more-btn">Программы</button>
-                        </li>
-                        <li class="banks__carousel-item bank__card">
-                            <div class="bank__icon-wrapper">
-                                <svg class="hosbank-icon bank__icon">
-                                    <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
-                                </svg>
-                            </div>
-                            <h3 class="bank__title">Банк Возраждение</h3>
-                            <span class="bank__desc">Ставка от 6,5%</span>
-                            <button class="bank__btn more-btn">Программы</button>
-                        </li>
-                        <li class="banks__carousel-item bank__card">
-                            <div class="bank__icon-wrapper">
-                                <svg class="hosbank-icon bank__icon">
-                                    <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
-                                </svg>
-                            </div>
-                            <h3 class="bank__title">Банк Возраждение</h3>
-                            <span class="bank__desc">Ставка от 6,5%</span>
-                            <button class="bank__btn more-btn">Программы</button>
-                        </li>
-                        <li class="banks__carousel-item bank__card">
-                            <div class="bank__icon-wrapper">
-                                <svg class="hosbank-icon bank__icon">
-                                    <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
-                                </svg>
-                            </div>
-                            <h3 class="bank__title">Банк Возраждение</h3>
-                            <span class="bank__desc">Ставка от 6,5%</span>
-                            <button class="bank__btn more-btn">Программы</button>
-                        </li>
-                    </ul>
+                    <h2 class="banks__title">Программы по банкам</h2>
+                    <div class="carousel-container">
+                        <ul class="banks__carousel">
+                            <li class="banks__carousel-item bank__card">
+                                <div class="bank__icon-wrapper">
+                                    <svg class="hosbank-icon bank__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="bank__title">Банк Возраждение</h3>
+                                <span class="bank__desc">Ставка от 6,5%</span>
+                                <button class="bank__btn more-btn">Программы</button>
+                            </li>
+                            <li class="banks__carousel-item bank__card">
+                                <div class="bank__icon-wrapper">
+                                    <svg class="hosbank-icon bank__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="bank__title">Банк Возраждение</h3>
+                                <span class="bank__desc">Ставка от 6,5%</span>
+                                <button class="bank__btn more-btn">Программы</button>
+                            </li>
+                            <li class="banks__carousel-item bank__card">
+                                <div class="bank__icon-wrapper">
+                                    <svg class="hosbank-icon bank__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="bank__title">Банк Возраждение</h3>
+                                <span class="bank__desc">Ставка от 6,5%</span>
+                                <button class="bank__btn more-btn">Программы</button>
+                            </li>
+                            <li class="banks__carousel-item bank__card">
+                                <div class="bank__icon-wrapper">
+                                    <svg class="hosbank-icon bank__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="bank__title">Банк Возраждение</h3>
+                                <span class="bank__desc">Ставка от 6,5%</span>
+                                <button class="bank__btn more-btn">Программы</button>
+                            </li>
+                            <li class="banks__carousel-item bank__card">
+                                <div class="bank__icon-wrapper">
+                                    <svg class="hosbank-icon bank__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="bank__title">Банк Возраждение</h3>
+                                <span class="bank__desc">Ставка от 6,5%</span>
+                                <button class="bank__btn more-btn">Программы</button>
+                            </li>
+                            <li class="banks__carousel-item bank__card">
+                                <div class="bank__icon-wrapper">
+                                    <svg class="hosbank-icon bank__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="bank__title">Банк Возраждение</h3>
+                                <span class="bank__desc">Ставка от 6,5%</span>
+                                <button class="bank__btn more-btn">Программы</button>
+                            </li>
+                            <li class="banks__carousel-item bank__card">
+                                <div class="bank__icon-wrapper">
+                                    <svg class="hosbank-icon bank__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="bank__title">Банк Возраждение</h3>
+                                <span class="bank__desc">Ставка от 6,5%</span>
+                                <button class="bank__btn more-btn">Программы</button>
+                            </li>
+                            <li class="banks__carousel-item bank__card">
+                                <div class="bank__icon-wrapper">
+                                    <svg class="hosbank-icon bank__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="bank__title">Банк Возраждение</h3>
+                                <span class="bank__desc">Ставка от 6,5%</span>
+                                <button class="bank__btn more-btn">Программы</button>
+                            </li>
+                            <li class="banks__carousel-item bank__card">
+                                <div class="bank__icon-wrapper">
+                                    <svg class="hosbank-icon bank__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="bank__title">Банк Возраждение</h3>
+                                <span class="bank__desc">Ставка от 6,5%</span>
+                                <button class="bank__btn more-btn">Программы</button>
+                            </li>
+                            <li class="banks__carousel-item bank__card">
+                                <div class="bank__icon-wrapper">
+                                    <svg class="hosbank-icon bank__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="bank__title">Банк Возраждение</h3>
+                                <span class="bank__desc">Ставка от 6,5%</span>
+                                <button class="bank__btn more-btn">Программы</button>
+                            </li>
+                            <li class="banks__carousel-item bank__card">
+                                <div class="bank__icon-wrapper">
+                                    <svg class="hosbank-icon bank__icon">
+                                        <use xlink:href="./image/svg/sprite.symbol.svg#hosbank"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="bank__title">Банк Возраждение</h3>
+                                <span class="bank__desc">Ставка от 6,5%</span>
+                                <button class="bank__btn more-btn">Программы</button>
+                            </li>
+                        </ul>
+                    </div>
                 </section>
-                <section class="housing-complex">
+                <section class="housing-complex" style="display: none;">
                     <ul class="housing-complex__list">
                         <li class="house">
                             <img src="./image/house/Rectangle 2.1 (1).png" alt="house photo" class="house-img">
@@ -827,13 +869,13 @@
                         </li>
                     </ul>
                 </section>
-                <div class="breadcrumbs-wrapper">
+                <div class="breadcrumbs-wrapper" style="display: none;">
                     <ul class="breadcrumbs__list">
                         <li class="breadcrumbs__item">Главная</li>
                         <li class="breadcrumbs__item">Ипотека на новостройку</li>
                     </ul>
                 </div>
-                <section class="description">
+                <section class="description" style="display: none;">
                     <div class="description__left-col">
                         <h2 class="descriotion__title">Квартиры в 56 новостройках Сочи</h2>
                         <div class="descrioption__text">
@@ -876,7 +918,7 @@
                     </div>
                 </section>
             </main>
-            <footer class="footer">
+            <footer class="footer" style="display: none;">
                 <div class="footer-nav">
                     <div class="footer-nav__right-col">
                         <h4 class="footer-nav__title">Квартиры от застройщиков</h4>
@@ -989,6 +1031,7 @@
             </footer>
         </div>
     </div>
+    <script src="./scripts/slider.js"></script>
 </body>
 
 </html>
