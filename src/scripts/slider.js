@@ -23,7 +23,6 @@
         if (currentPosition === null) {
             currentPosition = 0
         }
-        console.log(currentPosition)
 
         if (wheelX > 0 && currentPosition > -maxScrollCount) {
             currentPosition -= scrollStep
